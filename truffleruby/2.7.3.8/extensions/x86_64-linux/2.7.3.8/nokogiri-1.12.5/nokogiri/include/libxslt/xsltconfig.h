@@ -133,7 +133,7 @@ extern "C" {
 #ifndef WITH_MODULES
 #define WITH_MODULES
 #endif
-#define LIBXSLT_DEFAULT_PLUGINS_PATH() "/home/sopi/Documents/Side_projects/truffleruby/bench/railsbench/bundle/truffleruby/2.7.3.8/gems/nokogiri-1.12.5/ports/x86_64-unknown-linux-gnu/libxslt/1.1.34/lib/libxslt-plugins"
+#define LIBXSLT_DEFAULT_PLUGINS_PATH() "/home/sopi/Documents/Side_projects/truffleruby/bench/erubi_rails/bundle/truffleruby/2.7.3.8/gems/nokogiri-1.12.5/ports/x86_64-unknown-linux-gnu/libxslt/1.1.34/lib/libxslt-plugins"
 #endif
 
 /**

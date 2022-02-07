@@ -1,5 +1,5 @@
-current directory: /home/sopi/Documents/Side_projects/truffleruby/bench/railsbench/bundle/truffleruby/2.7.3.8/gems/sqlite3-1.4.2/ext/sqlite3
-/home/sopi/Documents/Side_projects/graal/sdk/mxbuild/linux-amd64/GRAALVM_92F985B265_JAVA11/graalvm-92f985b265-java11-21.3.0-dev/languages/ruby/bin/truffleruby -I /home/sopi/Documents/Side_projects/graal/sdk/mxbuild/linux-amd64/GRAALVM_92F985B265_JAVA11/graalvm-92f985b265-java11-21.3.0-dev/languages/ruby/lib/mri -r ./siteconf20220128-4911-1s73s6e.rb extconf.rb
+current directory: /home/sopi/Documents/Side_projects/truffleruby/bench/test/bundle/truffleruby/2.7.3.8/gems/sqlite3-1.4.2/ext/sqlite3
+/home/sopi/Documents/Side_projects/graal/sdk/mxbuild/linux-amd64/GRAALVM_92F985B265_JAVA11/graalvm-92f985b265-java11-21.3.0-dev/languages/ruby/bin/truffleruby -I /home/sopi/Documents/Side_projects/graal/sdk/mxbuild/linux-amd64/GRAALVM_92F985B265_JAVA11/graalvm-92f985b265-java11-21.3.0-dev/languages/ruby/lib/mri -r ./siteconf20220207-2552-ymsfvl.rb extconf.rb
 checking for sqlite3.h... yes
 checking for pthread_create() in -lpthread... yes
 checking for -ldl... yes
@@ -17,10 +17,10 @@ checking for sqlite3_int64 in sqlite3.h... yes
 checking for sqlite3_uint64 in sqlite3.h... yes
 creating Makefile
 
-current directory: /home/sopi/Documents/Side_projects/truffleruby/bench/railsbench/bundle/truffleruby/2.7.3.8/gems/sqlite3-1.4.2/ext/sqlite3
+current directory: /home/sopi/Documents/Side_projects/truffleruby/bench/test/bundle/truffleruby/2.7.3.8/gems/sqlite3-1.4.2/ext/sqlite3
 make "DESTDIR=" clean
 
-current directory: /home/sopi/Documents/Side_projects/truffleruby/bench/railsbench/bundle/truffleruby/2.7.3.8/gems/sqlite3-1.4.2/ext/sqlite3
+current directory: /home/sopi/Documents/Side_projects/truffleruby/bench/test/bundle/truffleruby/2.7.3.8/gems/sqlite3-1.4.2/ext/sqlite3
 make "DESTDIR="
 compiling aggregator.c
 compiling backup.c
@@ -30,6 +30,6 @@ compiling sqlite3.c
 compiling statement.c
 linking shared-object sqlite3/sqlite3_native.so
 
-current directory: /home/sopi/Documents/Side_projects/truffleruby/bench/railsbench/bundle/truffleruby/2.7.3.8/gems/sqlite3-1.4.2/ext/sqlite3
+current directory: /home/sopi/Documents/Side_projects/truffleruby/bench/test/bundle/truffleruby/2.7.3.8/gems/sqlite3-1.4.2/ext/sqlite3
 make "DESTDIR=" install
-install -c -p -m 755 sqlite3_native.so ./.gem.20220128-4911-17m4q04/sqlite3
+install -c -p -m 755 sqlite3_native.so ./.gem.20220207-2552-127th5w/sqlite3

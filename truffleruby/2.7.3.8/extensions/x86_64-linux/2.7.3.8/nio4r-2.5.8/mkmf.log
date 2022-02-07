@@ -40,7 +40,7 @@ conftest.c:3:10: fatal error: 'linux/io_uring.h' file not found
 #include <linux/io_uring.h>
          ^~~~~~~~~~~~~~~~~~
 1 error generated.
-Process failed: #<Process::Status: pid 31580 exit 1>
+Process failed: #<Process::Status: pid 28812 exit 1>
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -69,7 +69,7 @@ conftest.c:6:9: error: unknown type name 'port_event_t'
 typedef port_event_t conftest_type;
         ^
 1 error generated.
-Process failed: #<Process::Status: pid 31631 exit 1>
+Process failed: #<Process::Status: pid 28865 exit 1>
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -102,7 +102,7 @@ conftest.c:3:10: fatal error: 'sys/event.h' file not found
 #include <sys/event.h>
          ^~~~~~~~~~~~~
 1 error generated.
-Process failed: #<Process::Status: pid 31683 exit 1>
+Process failed: #<Process::Status: pid 28922 exit 1>
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -119,7 +119,7 @@ conftest.c:3:10: fatal error: 'port.h' file not found
 #include <port.h>
          ^~~~~~~~
 1 error generated.
-Process failed: #<Process::Status: pid 31709 exit 1>
+Process failed: #<Process::Status: pid 28946 exit 1>
 checked program was:
 /* begin */
 1: #include "ruby.h"

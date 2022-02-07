@@ -28,7 +28,7 @@ conftest.c:14:57: error: use of undeclared identifier 'yaml_get_version'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))yaml_get_version; return !p; }
                                                         ^
 1 error generated.
-Process failed: #<Process::Status: pid 32423 exit 1>
+Process failed: #<Process::Status: pid 29715 exit 1>
 checked program was:
 /* begin */
  1: #include "ruby.h"

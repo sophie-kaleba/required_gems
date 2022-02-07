@@ -101,7 +101,7 @@ conftest.c:14:57: error: use of undeclared identifier 'sqlite3_libversion_number
 int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_libversion_number; return !p; }
                                                         ^
 1 error generated.
-Process failed: #<Process::Status: pid 3484 exit 1>
+Process failed: #<Process::Status: pid 1111 exit 1>
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -195,7 +195,7 @@ conftest.c:14:57: error: use of undeclared identifier 'sqlite3_initialize'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_initialize; return !p; }
                                                         ^
 1 error generated.
-Process failed: #<Process::Status: pid 3617 exit 1>
+Process failed: #<Process::Status: pid 1315 exit 1>
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -243,7 +243,7 @@ conftest.c:14:57: error: use of undeclared identifier 'sqlite3_backup_init'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_backup_init; return !p; }
                                                         ^
 1 error generated.
-Process failed: #<Process::Status: pid 3737 exit 1>
+Process failed: #<Process::Status: pid 1394 exit 1>
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -291,7 +291,7 @@ conftest.c:14:57: error: use of undeclared identifier 'sqlite3_column_database_n
 int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_column_database_name; return !p; }
                                                         ^
 1 error generated.
-Process failed: #<Process::Status: pid 3816 exit 1>
+Process failed: #<Process::Status: pid 1504 exit 1>
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -339,7 +339,7 @@ conftest.c:14:57: error: use of undeclared identifier 'sqlite3_enable_load_exten
 int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_enable_load_extension; return !p; }
                                                         ^
 1 error generated.
-Process failed: #<Process::Status: pid 3879 exit 1>
+Process failed: #<Process::Status: pid 1578 exit 1>
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -387,7 +387,7 @@ conftest.c:14:57: error: use of undeclared identifier 'sqlite3_load_extension'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_load_extension; return !p; }
                                                         ^
 1 error generated.
-Process failed: #<Process::Status: pid 3970 exit 1>
+Process failed: #<Process::Status: pid 1655 exit 1>
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -435,7 +435,7 @@ conftest.c:14:57: error: use of undeclared identifier 'sqlite3_open_v2'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_open_v2; return !p; }
                                                         ^
 1 error generated.
-Process failed: #<Process::Status: pid 4038 exit 1>
+Process failed: #<Process::Status: pid 1719 exit 1>
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -483,7 +483,7 @@ conftest.c:14:57: error: use of undeclared identifier 'sqlite3_prepare_v2'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_prepare_v2; return !p; }
                                                         ^
 1 error generated.
-Process failed: #<Process::Status: pid 4108 exit 1>
+Process failed: #<Process::Status: pid 1838 exit 1>
 checked program was:
 /* begin */
  1: #include "ruby.h"
